@@ -19,9 +19,9 @@ LEFT JOIN
     company_dim ON
     job_postings_fact.company_id = company_dim.company_id
 WHERE
-    job_title_short = 'Business Analyst' AND
-    job_location='Anywhere' AND
-    salary_year_avg is not null
+    job_title_short = 'Business Analyst' 
+    AND job_location='Anywhere' 
+    AND salary_year_avg is not null
 ORDER BY 
     salary_year_avg DESC
 )
@@ -39,7 +39,7 @@ INNER JOIN
     skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY 
     yearly_salary DESC
---LIMIT 25;
+LIMIT 25;
 
 /*
 - SQL is the clear leader — nearly every job requires it.

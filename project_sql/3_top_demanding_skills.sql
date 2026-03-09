@@ -25,7 +25,7 @@ GROUP BY
     skills
 ORDER BY
     demand_count DESC
---LIMIT 10
+LIMIT 5
 
 
 
@@ -40,5 +40,5 @@ SQL and Microsoft Excel have the highest demand, showing that data querying and 
 Tools like Tableau and Microsoft Power BI appear frequently, highlighting the importance of creating dashboards and visual reports for decision-making.
 
 3️⃣ Programming skills support advanced analytics
-Languages such as Python and R are widely required for deeper data analysis, automation, and statistical modeling.
+Languages such as Python  widely required for deeper data analysis, automation, and statistical modeling.
 */

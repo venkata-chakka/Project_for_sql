@@ -27,7 +27,6 @@ order BY
     avg_salary DESC
 LIMIT 25;
 /*
-Three insights
 
 1️⃣ Cloud data platforms drive higher salaries ☁️
 Skills related to cloud technologies like Google BigQuery, Snowflake, and Databricks appear among the highest-paying, showing strong demand for cloud-based data infrastructure expertise.

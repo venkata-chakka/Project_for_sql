@@ -24,10 +24,9 @@ WHERE
     and salary_year_avg is not null
 GROUP BY skills_dim.skill_id
 having 
-     count(skills_job_dim.job_id)> 10
+     count(skills_job_dim.job_id)> 5
 ORDER BY 
     avg_salary DESC,
     demand_count DESC
-    
---LIMIT 25;
+LIMIT 10;
 
